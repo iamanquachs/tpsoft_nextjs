@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://tpsoftct.vn
+
+# Sitemaps
+Sitemap: https://tpsoftct.vn/sitemap.xml

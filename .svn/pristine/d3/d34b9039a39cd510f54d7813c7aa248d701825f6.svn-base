@@ -1,0 +1,10 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
+import React from "react";
+
+export default function Footer() {
+  return (
+    <div className="footer">
+      <p>© 2017 - {new Date().getFullYear()} by TPSoft</p>
+    </div>
+  );
+}

@@ -1,0 +1,124 @@
+import React from "react";
+import Image from "next/image";
+import { Container, Row, Col } from "react-bootstrap";
+import Header from "../components/header";
+import FooterSub from "../components/footer_sub";
+export default function intro() {
+  return (
+    <main>
+      <div className="intro_wrap">
+        <div className="section_intro">
+          <div className="section_home_title">
+            <p>Hành trình 15 năm</p>
+            <p>
+              TPSoft luôn đặt sự hài lòng của khách hàng trong từng suy nghĩ và
+              hành động
+            </p>
+          </div>
+        </div>
+        <Container>
+          <Row>
+            <Col xs={12}>
+              <div className="section_title">
+                <h2>ĐỊNH VỊ</h2>
+              </div>
+              <div className="style_img">
+                <Image
+                  src={require("../vendor/image/target.jpg")}
+                  alt={"PHẦN MỀM NHÀ THUỐC"}
+                />
+                <p>
+                  TPSoft là công ty chuyên về phần mềm Nhà thuốc, Phần mềm Phòng
+                  khám
+                </p>
+              </div>
+              <div className="section_title">
+                <h2>TẦM NHÌN</h2>
+              </div>
+              <div className="style_img">
+                <Image
+                  src={require("../vendor/image/tamnhin.png")}
+                  alt={"PHẦN MỀM PHÒNG KHÁM"}
+                />
+                <p>Công ty số 1 về phần mềm Nhà thuốc, Phần mềm Phòng khám</p>
+              </div>
+              <div className="section_title">
+                <h2>SỨ MẠNG</h2>
+              </div>
+              <div className="style_img">
+                <Image
+                  src={require("../vendor/image/sumang.png")}
+                  alt={"PHẦN MỀM PHÒNG MẠCH"}
+                />
+                <p>
+                  TPSoft luôn nỗ lực sáng tạo sản phẩm ngày một thông minh hơn
+                  và tiện ích hơn nhằm thực hiện khát vọng ứng dụng những thành
+                  tựu của CNTT vào lĩnh vực y tế
+                </p>
+              </div>
+              <div className="section_title">
+                <h2>GIÁ TRỊ CỐT LÕI</h2>
+              </div>
+              <div className="style_img">
+                <Image
+                  className="widthstyle"
+                  src={require("../vendor/image/camket.jpg")}
+                  alt={"PHẦN MỀM BÁC SĨ"}
+                />
+                <p className="giatricotloi_header">ĐỐI VỚI KHÁCH HÀNG</p>
+                <p className="giatricotloi_line">
+                  Đặt sự hài lòng của khách hàng trong từng suy nghĩ và hành
+                  động
+                </p>
+                <p className="giatricotloi_header">ĐỐI VỚI SẢN PHẨM</p>
+                <p className="giatricotloi_line">
+                  Phù hợp - Thân thiện - Nổi bật - Khác biệt
+                </p>
+                <p className="giatricotloi_header">ĐỐI VỚI CHÍNH MÌNH</p>
+                <p className="giatricotloi_line">
+                  Kỷ luật - Nghiêm khắc - Tiến bộ - Khát khao
+                </p>
+                <p className="giatricotloi_header">ĐỐI VỚI CÔNG VIỆC</p>
+                <p className="giatricotloi_line">
+                  Trách nhiệm - Chất lượng - Tận tâm - Đúng hạn
+                </p>
+                <p className="giatricotloi_header">ĐỐI VỚI CÔNG TY</p>
+                <p className="giatricotloi_line">
+                  Bảo mật - Chính trực - Trách nhiệm - Nhiệt huyết
+                </p>
+                <p className="giatricotloi_header">ĐỐI VỚI ĐỒNG NGHIỆP</p>
+                <p className="giatricotloi_line">
+                  Chính trực - Tôn trọng - Giúp đỡ - Nhã nhặn
+                </p>
+                <p className="giatricotloi_header">ĐỐI VỚI ĐỐI TÁC</p>
+                <p className="giatricotloi_line">
+                  Cân bằng - Tiết kiệm - Trách nhiệm - Bền vững
+                </p>
+              </div>
+              <div className="section_title">
+                <h1>SẢN PHẨM CỐT LÕI</h1>
+              </div>
+              <div className="style_img logo_ec_ep">
+                <Image
+                  src={require("../vendor/image/Logo_EC_To.png")}
+                  alt={"PHẦN MỀM PHÒNG KHÁM"}
+                />
+                <Image
+                  src={require("../vendor/image/Logo_EP_To.png")}
+                  alt={"PHẦN MÈM NHÀ THUỐC"}
+                />
+              </div>
+              <div className="section_title">
+                <h2>KHẨU HIỆU SẢN PHẨM</h2>
+              </div>
+              <div className="style_img">
+                <p className="desudung">Dễ sử dụng</p>
+              </div>
+            </Col>
+          </Row>
+        </Container>
+      </div>
+      <FooterSub />
+    </main>
+  );
+}

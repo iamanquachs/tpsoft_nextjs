@@ -1,0 +1,412 @@
+import Footer_LH from "../components/footer_lienhe.jsx";
+import Footer from "../components/footer.jsx";
+import { Row, Col, Container } from "react-bootstrap";
+import Image from "next/image";
+import Link from "next/link";
+export default function Home() {
+  return (
+    <>
+      <div className="section_home">
+        <div className="section_home_header">
+          <div className="section_home_title">
+            <p className="title_main">TPSoft</p>
+            <p className="title_child">
+              Khát vọng ứng dụng những thành tựu của CNTT vào lĩnh vực y tế
+            </p>
+          </div>
+        </div>
+        <div className="section_home_intro">
+          <Container>
+            <Row>
+              <Col sm={4} className="section_title_left">
+                <p>Giới thiệu</p>
+                <h2>Wellness Spa - Nơi vẻ đẹp thăng hoa</h2>
+              </Col>
+              <Col sm={8} className="section_title_right">
+                <p>
+                  Nếu nhan sắc và sự khỏe mạnh có nghĩa là chiều theo quan niệm
+                  thẩm mỹ của mình, thì Wellness Spa chính là nơi quý khách tìm
+                  kiếm. Vị trí của Wellness Spa được cất kín ở cuối một con
+                  đường nhỏ yên tĩnh, phủ bóng cây. Một chốn ẩn náu của các
+                  hương liệu, cách điều trị tự nhiên và sự thư giãn.
+                </p>
+                <p>
+                  Vừa vào đến khuôn viên quý vị đã được đắm chìm trong cảm giác
+                  yên ả từ ngôi biệt thự Pháp đáng yêu. Với khu vườn nhiệt đới
+                  dễ thương, các bồn phun nước, các ánh đèn chùm ấm áp, ghế đệm
+                  dầy êm và các tấm màn cửa nhung. Đấy chính là thoải mái và
+                  thẩm mỹ.
+                </p>
+                <p>
+                  Wellness Spa có hai mươi ba phòng và suites. Tất cả đều được
+                  trang trí đẹp đẽ. Các cổ vật trang nhã được trưng bầy một cách
+                  ý nhị khắp nơi. Các suites đều được trang bị bồn tắm có chân,
+                  jacuzzi và phòng tắm riêng. Không khí cảm nhận chung ở đây là
+                  sự xa hoa kín đáo.
+                </p>
+                <p>
+                  Các chủ sở hữu của Wellness Spa đều nhiệt tâm tin tưởng rằng
+                  cây cỏ, thư giãn, sự chăm chút là các cách tốt nhất để phục
+                  hồi sức khỏe và nhan sắc. Spa của chúng tôi được đặt theo tên
+                  của một nhà bào chế thời thế kỷ 17 − một nhà thảo dược học,
+                  khoa học gia và phù thủy nổi tiếng với các phương thuốc kỳ
+                  diệu cho sức khỏe và sắc đẹp.
+                </p>
+              </Col>
+              <Col sm={12} className="section_intro_footer">
+                <h1>10 Năm</h1>
+                <p>Kinh nghiệm làm việc</p>
+              </Col>
+            </Row>
+          </Container>
+        </div>
+        <div className="section_home_body">
+          <Container>
+            <Row>
+              <Col xs={12}>
+                <div className="section_title">
+                  <h2>Sản phẩm</h2>
+                </div>
+              </Col>
+              <Col sm={4}>
+                <div className="section_item">
+                  <Link href={`/product-datlich`}>
+                    <div className="style_FD"></div>
+                    <div>
+                      <h2>KÊNH TÌM BÁC SĨ VÀ ĐẶT LỊCH KHÁM</h2>
+
+                      <p>
+                        Đặt khám trực tuyến mọi lúc mọi nơi, trên mọi thiết bị;
+                        Đồng bộ về phần mềm bác sĩ; Giảm thời gian chờ đợi...
+                      </p>
+                    </div>
+                  </Link>
+                </div>
+              </Col>
+              <Col sm={4}>
+                <div className="section_item">
+                  <Link href={`/product-phongkham`}>
+                    <div className="style_EC"></div>
+                    <div>
+                      <h2>PHẦN MỀM QUẢN LÝ PHÒNG KHÁM</h2>
+
+                      <p>
+                        e Clinic loại bỏ hoàn toàn việc ghi chép sổ sách, giấy
+                        tờ, giúp bác sĩ tập trung nhiều hơn vào khám chữa
+                        bệnh...
+                      </p>
+                    </div>
+                  </Link>
+                </div>
+              </Col>
+              <Col sm={4}>
+                <div className="section_item">
+                  <Link href={`/product-nhathuoc`}>
+                    <div className="style_EP"></div>
+                    <div>
+                      <h2>PHẦN MỀM QUẢN LÝ NHÀ THUỐC</h2>
+                      <p>
+                        Liên thông dữ liệu Dược Quốc gia theo quy định của Bộ Y
+                        tế, nghiệp vụ đầy đủ, thân thiện, dễ sử dụng...
+                      </p>
+                    </div>
+                  </Link>
+                </div>
+              </Col>
+              <Col sm={4}>
+                <div className="section_item">
+                  <Link href={`/product-xetnghiem`}>
+                    <div className="style_LB"></div>
+                    <div>
+                      <h2>CỔNG TRẢ KẾT QUẢ XÉT NGHIỆM</h2>
+
+                      <p>
+                        Kết quả xét nghiệm được liên thông về phòng khám của bác
+                        sĩ, không cần chờ đợi; Lưu trữ, tra cứu lại khi cần...
+                      </p>
+                    </div>
+                  </Link>
+                </div>
+              </Col>
+              <Col sm={4}>
+                <div className="section_item">
+                  <Link href={`/product-ctyduoc`}>
+                    <div className="style_EG"></div>
+                    <div>
+                      <h2>PHẦN MỀM QUẢN LÝ CÔNG TY DƯỢC</h2>
+
+                      <p>
+                        Liên thông dữ liệu Dược Quốc gia theo quy định của Bộ Y
+                        tế, nghiệp vụ đầy đủ; Thân thiện, dễ sử dụng...
+                      </p>
+                    </div>
+                  </Link>
+                </div>
+              </Col>
+              <Col sm={4}>
+                <div className="section_item">
+                  <Link href={`/product-thammy`}>
+                    <div className="style_MS"></div>
+                    <div>
+                      <h2>PHẦN MỀM QUẢN LÝ SPA</h2>
+
+                      <p>
+                        e Clinic loại bỏ hoàn toàn việc ghi chép sổ sách, giấy
+                        tờ, giúp bác sĩ tập trung nhiều hơn vào khám chữa
+                        bệnh...
+                      </p>
+                    </div>
+                  </Link>
+                </div>
+              </Col>
+
+              <Col xs={12}>
+                <div className="section_title">
+                  <h2>Dịch vụ</h2>
+                </div>
+              </Col>
+              <Col sm={4}>
+                <div className="section_item">
+                  <Link href={`/services#consult`}>
+                    <div className="style_TuVan"></div>
+                    <div>
+                      <h2>Tư vấn chiến lược CNTT</h2>
+                      <p>
+                        Tư vấn giải pháp toàn diện, phù hợp cho chuyển đổi số và
+                        ứng dụng công nghệ cho doanh nghiệp nhằm đáp ứng nhu cầu
+                        quản trị, điều hành và gia tăng hiệu quả kinh doanh...
+                      </p>
+                    </div>
+                  </Link>
+                </div>
+              </Col>
+              <Col sm={4}>
+                <div className="section_item">
+                  <Link href={`/services#ERP`}>
+                    <div className="style_ERP"></div>
+                    <div>
+                      <h2>Giải pháp quản trị doanh nghiệp ERP</h2>
+                      <p>
+                        Khảo sát cơ sở hạ tầng CNTT, các quy trình nghiệp vụ và
+                        đặc trưng của ngành. Từ đó xây dựng hồ sơ đánh giá hiện
+                        trạng làm căn cứ đề xuất giải pháp phù hợp trong ngắn
+                        hạn, dài hạn...
+                      </p>
+                    </div>
+                  </Link>
+                </div>
+              </Col>
+              <Col sm={4}>
+                <div className="section_item">
+                  <Link href={`/services#CamAI`}>
+                    <div className="style_Cam"></div>
+                    <div>
+                      <h2>Giải pháp Camera AI</h2>
+                      <p>
+                        Giám sát và lưu trữ trực tuyến trên nền tảng công nghệ
+                        điện toán đám mây, hỗ trợ nhiều thiết bị (Web, Mobile
+                        App, Desktop). Các tính năng AI - Giúp camera trở nên
+                        thông minh hơn...
+                      </p>
+                    </div>
+                  </Link>
+                </div>
+              </Col>
+            </Row>
+          </Container>
+        </div>
+        <div className="section_home_info bg_home_info">
+          <Container>
+            <Row>
+              <Col sm={6} className="section_info_left">
+                <div>
+                  <h3>1500</h3>
+                  <p>KHÁCH HÀNG HÀI LÒNG</p>
+                </div>
+                <div>
+                  <h3>15</h3>
+                  <p>CHI NHÁNH TOÀN QUỐC</p>
+                </div>
+                <div>
+                  <h3>15</h3>
+                  <p>KINH NGHIỆM</p>
+                </div>
+              </Col>
+              <Col sm={6} className="section_info_right">
+                <div>
+                  <p>Một vài</p>
+                  <h2>ĐIỀU THÚ VỊ VỀ CÔNG TY</h2>
+                  <p>
+                    Chúng tôi mong muốn trở thành nhà cung cấp dịch vụ chăm sóc
+                    sức khoẻ - sắc đẹp, hướng đến trở thành một mô hình chuẩn
+                    mực và tiên phong trong lĩnh vực dịch vụ làm đẹp thị trường
+                    Việt Nam.
+                  </p>
+                </div>
+              </Col>
+            </Row>
+          </Container>
+        </div>
+        <div className="section_home_whatwedo">
+          <Container>
+            <Row>
+              <Col sm={6}>
+                <div className="form_progress">
+                  <p>Dịch vụ CSKH thân thiện</p>
+                  <div className="items_progress" style={{ width: "100%" }}>
+                    <div className="progress" style={{ width: "70%" }}>
+                      70%
+                    </div>
+                  </div>
+                </div>
+                <div className="form_progress">
+                  <p>Áp dụng công nghệ mới</p>
+                  <div className="items_progress" style={{ width: "100%" }}>
+                    <div className="progress" style={{ width: "96%" }}>
+                      96%
+                    </div>
+                  </div>
+                </div>
+                <div className="form_progress">
+                  <p>Khách hàng hài lòng 100%</p>
+                  <div className="items_progress" style={{ width: "100%" }}>
+                    <div className="progress" style={{ width: "80%" }}>
+                      80%
+                    </div>
+                  </div>
+                </div>
+                <div className="form_progress">
+                  <p>Đảm bảo chất lượng</p>
+                  <div className="items_progress" style={{ width: "100%" }}>
+                    <div className="progress" style={{ width: "45%" }}>
+                      45%
+                    </div>
+                  </div>
+                </div>
+                <div className="form_progress">
+                  <p>Giá cả hợp lý</p>
+                  <div className="items_progress" style={{ width: "100%" }}>
+                    <div className="progress" style={{ width: "50%" }}>
+                      50%
+                    </div>
+                  </div>
+                </div>
+              </Col>
+              <Col sm={6} className="section_whatwedo_right">
+                <h2>CHÚNG TÔI LÀM GÌ?</h2>
+                <p>
+                  Wellness Spa cung cấp một danh sách dịch vụ đầy đủ, trong đó
+                  có những liệu pháp tuyệt vời cho da và toàn thân, và chỉ xử
+                  dụng các sản phẩm cho da và mặt hoàn toàn thiên nhiên và hữu
+                  cơ. Các gói dịch vụ của chúng tôi được thiết kế không chỉ để
+                  chiều chuộng, mà còn để cung cấp các lợi ích rõ rệt nhằm xoa
+                  dịu tâm hồn và thân thể quý khách.
+                </p>
+                <p>
+                  Một lần thăm viếng Wellness Spa sẽ được bắt đầu bằng việc phân
+                  tích da kỹ lưỡng bởi một trong những chuyên viên thẩm mỹ dạn
+                  dầy kinh nghiệm của chúng tôi. Chúng tôi sẽ đề ra một phác đồ
+                  dịch vụ phù hợp với nhu cầu cá nhân của mỗi khách hàng. Chúng
+                  tôi chỉ xử dụng các sản phẩm dưỡng da thiên nhiên ngoại hạng
+                  được sản xuất với liều lượng nhỏ từ Pháp. Và quý khách sẽ được
+                  thấy rõ sự chuyển biến tích cực của làn da ngay sau một lần
+                  trị liệu.
+                </p>
+              </Col>
+            </Row>
+          </Container>
+        </div>
+        <div className="section_home_culture">
+          <Container>
+            <Row>
+              <Col sm={5} className="section_culture_left">
+                <Image
+                  width={400}
+                  he={400}
+                  src={require("../vendor/image/ep1.jpg")}
+                  alt={"PHẦN MỀM PHÒNG KHÁM | PHẦN MỀM BÁC SĨ"}
+                />
+              </Col>
+              <Col sm={7} className="section_culture_right">
+                <div>
+                  <h3>VĂN HOÁ - HOẠT ĐỘNG</h3>
+                  <p>
+                    Cùng với đội ngũ nhân viên, kỹ thuật viên có năng lực chuyên
+                    môn cao, được đào tạo bài bản, cơ sở vật chất đáp ứng tiêu
+                    chuẩn cao... chúng tôi chọn cho mình một phong cách hiện đại
+                    và chuyên nghiệp trong các dịch vụ mà chúng tôi cung cấp, mà
+                    tiên phong là lĩnh vực tư vấn thiết kế, nhằm mục tiêu đưa
+                    Wellness Spa thành một công ty hàng đầu trong lĩnh vực chăm
+                    sóc sức khoẻ - sắc đẹp tại Việt Nam.
+                  </p>
+                  <ul>
+                    <li>Không nói lý do – chỉ nói kết quả</li>
+                    <li>Không tranh cãi – chỉ nói giải pháp</li>
+                    <li>Không chứng tỏ cá nhân – chỉ cống hiến</li>
+                    <li>
+                      Không vụ lợi - chỉ hưởng thành quả từ năng lực của mình
+                    </li>
+                  </ul>
+                </div>
+              </Col>
+            </Row>
+          </Container>
+        </div>
+        <div className="section_home_contact bg_home_contact">
+          <div>
+            <p>Hãy liên hệ ngay với chúng tôi!</p>
+            <p>
+              Phục vụ chu đáo - Chất lượng cao - Cơ sở vật chất - Dịch vụ hoàn
+              hảo
+            </p>
+            <p>Hãy cùng NextCompany xây dựng ngôi nhà mơ ước của bạn!</p>
+          </div>
+        </div>
+        <div className="section_home_policy">
+          <Container>
+            <Row>
+              <Col sm={4}>
+                <div className="section_item_policy">
+                  <div className="policy_items">
+                    <div className="policy_suport"></div>
+                  </div>
+                  <h4>Hỗ trợ</h4>
+                  <p>
+                    Chúng tôi luôn sẵn sàng hỗ trợ trực tuyến 24/7. Hãy liên hệ
+                    với chúng tôi để giải đáp mọi thắc mắc.
+                  </p>
+                </div>
+              </Col>
+              <Col sm={4}>
+                <div className="section_item_policy">
+                  <div className="policy_items">
+                    <div className="policy_contact"></div>
+                  </div>
+                  <h4>Liên hệ</h4>
+                  <p>
+                    Liên hệ đường dây nóng hoặc gửi mail vào hộp thư của chúng
+                    tôi nếu bạn có bất cứ đề nghị hay thắc mắc gì.
+                  </p>
+                </div>
+              </Col>
+              <Col sm={4}>
+                <div className="section_item_policy">
+                  <div className="policy_items">
+                    <div className="policy_partner"></div>
+                  </div>
+                  <h4>Đối tác</h4>
+                  <p>
+                    Wellness Spa rất vui khi được hợp tác cùng các bạn. Hãy liên
+                    lạc với chúng tôi nếu các bạn có ý định cộng tác nhé.
+                  </p>
+                </div>
+              </Col>
+            </Row>
+          </Container>
+        </div>
+      </div>
+      <Footer_LH />
+      <Footer />
+    </>
+  );
+}

@@ -1,0 +1,21 @@
+import React from "react";
+import Image from "next/image";
+import { Container, Row, Col } from "react-bootstrap";
+import Link from "next/link";
+import Footer_LH from "../components/footer_lienhe";
+export default function Product() {
+  return (
+    <>
+      <div className="product_wrap">
+        <div className="section_product">
+          <div className="section_header_title">
+            <p>Phù hợp - Thân thiện - Nổi bật - Khác biệt</p>
+            <p>Thấu hiểu - Sáng tạo - Đồng hành - Chia sẻ</p>
+          </div>
+        </div>
+        <p>Nhà thuốc</p>
+      </div>
+      <Footer_LH />
+    </>
+  );
+}

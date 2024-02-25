@@ -1,0 +1,200 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
+import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
+import Iframe from "react-iframe";
+import Image from "next/image";
+
+export default function Footer_LH() {
+  return (
+    <Container>
+      <Row>
+        <Col xs={12}>
+          <div className="section_title">
+            <h2>Liên hệ</h2>
+          </div>
+        </Col>
+        <Col sm={4}>
+          <div className="section_dichvu_item">
+            <div className="lienhe_header">
+              <p>Đường đến TPSoft</p>
+            </div>
+            <div className="section_content">
+              <Iframe
+                title={"duong-den-tpsoft"}
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3928.9390258040494!2d105.75381081428208!3d10.021890575407971!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31a0884866ca3b4f%3A0x5673e506d4de6841!2zQ8O0bmcgVHkgVG5oaCBDw7RuZyBOZ2jhu4cgUGjhuqduIE3hu4FtIFRwc29mdA!5e0!3m2!1svi!2s!4v1613835567640!5m2!1svi!2s"
+                width="100%"
+                height="315px"
+                styles={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+              />
+            </div>
+          </div>
+        </Col>
+        <Col sm={4}>
+          <div className="section_dichvu_item">
+            <div className="lienhe_header">
+              <p>Thông tin liên hệ (24/24)</p>
+            </div>
+            <div className="section_content">
+              <ul>
+                <li>
+                  <p className="bold">CÔNG TY TNHH CÔNG NGHỆ PHẦN MỀM TPSOFT</p>
+                </li>
+                <li>
+                  <p>
+                    [MST] 1801632394, được Sở Kế hoạch và Đầu tư TP. Cần Thơ cấp
+                    ngày 21/03/2019
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    [A] Thửa đất số 606, Tờ bản đồ số 47, đường B8, KDC 91B, P.
+                    An Khánh, Q. Ninh Kiều, TP. Cần Thơ
+                  </p>
+                </li>
+                <li>
+                  <p>[P] 0919 118 187 (Mr. Nhựt Tân)</p>
+                </li>
+                <li>
+                  <p>[M] contact@tpsoftct.vn</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </Col>
+        <Col sm={4}>
+          <div className="section_dichvu_item">
+            <div className="lienhe_header">
+              <p>Thông tin từ TPSoft</p>
+            </div>
+            <div className="section_content">
+              <Iframe
+                title="facebook"
+                src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FTPSoftGroup%2F&tabs=timeline&width=325&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+                width="325"
+                height="300"
+                style="border:none;overflow:hidden"
+                scrolling="no"
+                frameborder="0"
+                allowfullscreen="true"
+                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+              ></Iframe>
+            </div>
+          </div>
+        </Col>
+        <Col sm={4}>
+          <div className="section_chinhsach_item">
+            <div className="chinhsach_header">
+              <p>Đối tác</p>
+            </div>
+            <div className="section_content">
+              <ul>
+                <li>
+                  <p>► Đối tác chính thức của:</p>
+                </li>
+                <li>
+                  <Image
+                    src={require("../vendor/image/partner.webp")}
+                    alt={"partner"}
+                  />
+                </li>
+                <li>
+                  <a
+                    href="https://tinnhiemmang.vn/danh-ba-tin-nhiem/tpsoftctvn-1640762496"
+                    title="Chung nhan Tin Nhiem Mang"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <Image
+                      src={require("../vendor/image/handle_cert.webp")}
+                      width="150px"
+                      height="auto"
+                      alt="Chung nhan Tin Nhiem Mang"
+                    />
+                  </a>
+                </li>
+
+                <li>
+                  <Image src={require("../vendor/image/ssl.png")} alt="" />
+                </li>
+                <li>
+                  <a
+                    href="http://online.gov.vn/Home/WebDetails/78344"
+                    target="blank"
+                    alt="da-thong-bao-cong-thuong"
+                  >
+                    <Image
+                      src={require("../vendor/image/logoSaleNoti.webp")}
+                      alt=""
+                    />
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </Col>
+        <Col sm={4}>
+          <div className="section_chinhsach_item">
+            <div className="chinhsach_header">
+              <p>Phạm vi cung cấp</p>
+            </div>
+            <div className="section_content">
+              <ul>
+                <li>
+                  <p>TPSoft hân hạnh được cung cấp sản phẩm và dịch vụ 24/24</p>
+                </li>
+                <li>
+                  <p>
+                    Không giới hạn chức năng, cam kết hoàn tiền 100% trong 3
+                    tháng đầu tiên nếu có bất kỳ vấn đề gì không hài lòng trong
+                    quá trình sử dụng hoặc không muốn tiếp tục sử dụng sản phẩm
+                    và dịch vụ của TPSoft
+                  </p>
+                </li>
+                <li>
+                  <p>Bảo hành sản phẩm trong suốt thời gian sử dụng dịch vụ</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </Col>
+        <Col sm={4}>
+          <div className="section_chinhsach_item">
+            <div className="chinhsach_header">
+              <p>Chính sách</p>
+            </div>
+            <div className="section_content">
+              <ul>
+                <li>
+                  <p>► Chính sách thanh toán</p>
+                </li>
+                <li>
+                  <p>
+                    - Tiền mặt: Tại địa chỉ của khách hàng hoặc văn phòng của
+                    TPSoft.
+                  </p>
+                  <p>
+                    - Chuyển khoản: 0111 000 349798 (Vietcombank - CN Cần Thơ).
+                  </p>
+                </li>
+                <li>
+                  <p>► Chính sách cung cấp dịch vụ</p>
+                  <p>
+                    Trong vòng 3 ngày làm việc, TPSoft cử chuyên viên đến trực
+                    tiếp tại địa chỉ của khách hàng để tư vấn chuyển giao
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <a href="policy"> ► Chính sách bảo mật</a>
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </Col>
+      </Row>
+    </Container>
+  );
+}

@@ -1,0 +1,38 @@
+import React from "react";
+import Form from "react-bootstrap/Form";
+import Button from "react-bootstrap/Button";
+import { Container, Row, Col } from "react-bootstrap";
+export default function requiredelete() {
+  return (
+    <div>
+      <div className="section_home_header">
+        <div className="section_home_title">
+          {/* <h1>CÔNG TY TNHH CÔNG NGHỆ PHẦN MỀM TPSOFT</h1>
+            <p className="line"></p> */}
+          <p>
+            TPSoft luôn nỗ lực sáng tạo sản phẩm ngày một thông minh hơn và tiện
+            ích hơn nhằm thực hiện khát vọng ứng dụng những thành tựu của CNTT
+            vào lĩnh vực y tế
+          </p>
+        </div>
+      </div>
+      <div className="section_title">
+        <h2>YÊU CẦU XÓA DỮ LIỆU</h2>
+      </div>
+      <Container id="requiredelete">
+        <p>
+          Vui lòng cung cấp thông tin, để chúng tôi tiền hành xóa dữ liệu người
+          dùng khỏi hệ thống
+        </p>
+        <Form.Control
+          placeholder="FacebookID/Email/Số điện thoại"
+          aria-label="FacebookID/Email/Số điện thoại"
+          aria-describedby="basic-addon2"
+        />
+        <div className="btn_yeucau">
+          <Button variant="danger">Yêu cầu xóa</Button>
+        </div>
+      </Container>
+    </div>
+  );
+}

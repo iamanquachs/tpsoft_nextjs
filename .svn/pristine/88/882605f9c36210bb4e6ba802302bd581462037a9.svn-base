@@ -1,0 +1,195 @@
+import Footer_LH from '../components/footer_lienhe.jsx';
+import Footer from '../components/footer.jsx';
+import { Row, Col, Container } from "react-bootstrap";
+import Image from "next/image";
+import Link from "next/link";
+export default function Home() {
+  return (
+    <>
+      <div className="section_home">
+        <div className="section_home_header">
+          <div className="section_home_title">
+            {/* <h1>CÔNG TY TNHH CÔNG NGHỆ PHẦN MỀM TPSOFT</h1>
+            <p className="line"></p> */}
+            <p className="title_main">
+              TPSoft
+            </p>
+            <p className='title_child'>
+              Khát vọng ứng dụng những thành tựu của CNTT
+              vào lĩnh vực y tế
+            </p>
+          </div>
+        </div>
+        <div className="section_home_body">
+          <Container>
+            
+            <Row>
+              <Col xs={12}>
+                <div className="section_title">
+                  <h2>Sản phẩm</h2>
+                </div>
+              </Col>
+              <Col sm={4}>
+                <div className="section_item">
+                  <div className="style_FD"></div>
+                  <div>
+                    <h2>KÊNH TÌM BÁC SĨ VÀ ĐẶT LỊCH KHÁM</h2>
+                    <Image
+                      src={require("../vendor/image/Logo_FD.webp")}
+                      alt={"KÊNH TÌM BÁC SĨ VÀ ĐẶT LỊCH KHÁM"}
+                    />
+                    <p>
+                      Đặt khám trực tuyến mọi lúc mọi nơi, trên mọi thiết bị; Đồng
+                      bộ về phần mềm bác sĩ; Giảm thời gian chờ đợi...
+                    </p>
+                  </div>
+                </div>
+              </Col>
+              <Col sm={4}>
+                <div className="section_item">
+                  <Link href={`/product#EClinic`}>
+                    <div className="style_EC"></div>
+                    <div>
+                      <h2>PHẦN MỀM QUẢN LÝ PHÒNG KHÁM</h2>
+                      <Image
+                        src={require("../vendor/image/Logo_EC.png")}
+                        alt={"PHẦN MỀM PHÒNG KHÁM"}
+                      />
+                      <p>
+                        e Clinic loại bỏ hoàn toàn việc ghi chép sổ sách, giấy tờ,
+                        giúp bác sĩ tập trung nhiều hơn vào khám chữa bệnh...
+                      </p>
+                    </div>
+                  </Link>
+                </div>
+              </Col>
+              <Col sm={4}>
+                <div className="section_item">
+                  <Link href={`/product#EPhamarcy`}>
+                    <div className="style_EP"></div>
+                    <div>
+                      <h2>PHẦN MỀM QUẢN LÝ NHÀ THUỐC</h2>
+                      <Image
+                        src={require("../vendor/image/Logo_EP.png")}
+                        alt={"PHẦN MỀM NHÀ THUỐC"}
+                      />
+                      <p>
+                        Liên thông dữ liệu Dược Quốc gia theo quy định của Bộ Y
+                        tế, nghiệp vụ đầy đủ, thân thiện, dễ sử dụng...
+                      </p>
+                    </div>
+                  </Link>
+                </div>
+              </Col>
+              <Col sm={4}>
+                <div className="section_item">
+                  <div className="style_LB"></div>
+                  <div>
+                    <h2>CỔNG TRẢ KẾT QUẢ XÉT NGHIỆM</h2>
+                    <Image
+                      src={require("../vendor/image/Logo_LB.webp")}
+                      alt={"CỔNG TRẢ KẾT QUẢ XÉT NGHIỆM"}
+                    />
+                    <p>
+                      Kết quả xét nghiệm được liên thông về phòng khám của bác sĩ,
+                      không cần chờ đợi; Lưu trữ, tra cứu lại khi cần...
+                    </p>
+                  </div>
+                </div>
+              </Col>
+              <Col sm={4}>
+                <div className="section_item">
+                  <div className="style_EG"></div>
+                  <div>
+                    <h2>PHẦN MỀM QUẢN LÝ CÔNG TY DƯỢC</h2>
+                    <Image
+                      src={require("../vendor/image/Logo_ED.webp")}
+                      alt={"PHẦN MỀM QUẢN LÝ CÔNG TY DƯỢC"}
+                    />
+                    <p>
+                      Liên thông dữ liệu Dược Quốc gia theo quy định của Bộ Y tế,
+                      nghiệp vụ đầy đủ; Thân thiện, dễ sử dụng...
+                    </p>
+                  </div>
+                </div>
+              </Col>
+              <Col sm={4}>
+                <div className="section_item">
+                  <Link href={`/product#Microsoft`}>
+                    <div className="style_MS"></div>
+                    <div>
+                      <h2>PHẦN MỀM BẢN QUYỀN</h2>
+                      <Image
+                        src={require("../vendor/image/Logo_MS_Partner.webp")}
+                        alt={"OFFICE | WORD | EXCEL | POWEPOINT"}
+                      />
+                      <p>
+                        Ứng dụng các công nghệ trong hệ sinh thái sản phẩm của
+                        Microsoft như Office 365, Teams, Email Server, Azure
+                        Cloud...
+                      </p>
+                    </div>
+                  </Link>
+                </div>
+              </Col>
+              <Col xs={12}>
+                <div className="section_title">
+                  <h2>Dịch vụ</h2>
+                </div>
+              </Col>
+              <Col sm={4}>
+                <div className="section_item">
+                  <Link href={`/services#consult`}>
+                    <div className="style_TuVan"></div>
+                    <div>
+                      <h2>Tư vấn chiến lược CNTT</h2>
+                      <p>
+                        Tư vấn giải pháp toàn diện, phù hợp cho chuyển đổi số và
+                        ứng dụng công nghệ cho doanh nghiệp nhằm đáp ứng nhu cầu
+                        quản trị, điều hành và gia tăng hiệu quả kinh doanh...
+                      </p>
+                    </div>
+                  </Link>
+                </div>
+              </Col>
+              <Col sm={4}>
+                <div className="section_item">
+                  <Link href={`/services#ERP`}>
+                    <div className="style_ERP"></div>
+                    <div>
+                      <h2>Giải pháp quản trị doanh nghiệp ERP</h2>
+                      <p>
+                        Khảo sát cơ sở hạ tầng CNTT, các quy trình nghiệp vụ và
+                        đặc trưng của ngành. Từ đó xây dựng hồ sơ đánh giá hiện
+                        trạng làm căn cứ đề xuất giải pháp phù hợp trong ngắn hạn,
+                        dài hạn...
+                      </p>
+                    </div>
+                  </Link>
+                </div>
+              </Col>
+              <Col sm={4}>
+                <div className="section_item">
+                  <Link href={`/services#CamAI`}>
+                    <div className="style_Cam"></div>
+                    <div>
+                      <h2>Giải pháp Camera AI</h2>
+                      <p>
+                        Giám sát và lưu trữ trực tuyến trên nền tảng công nghệ
+                        điện toán đám mây, hỗ trợ nhiều thiết bị (Web, Mobile App,
+                        Desktop). Các tính năng AI - Giúp camera trở nên thông
+                        minh hơn...
+                      </p>
+                    </div>
+                  </Link>
+                </div>
+              </Col>
+            </Row>
+          </Container>
+        </div>
+      </div>
+      <Footer_LH />
+      <Footer />
+    </>
+  )
+}

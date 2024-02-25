@@ -1,0 +1,206 @@
+{
+  "polyfillFiles": [
+    "static/chunks/polyfills-c67a75d1b6f99dc8.js"
+  ],
+  "devFiles": [],
+  "ampDevFiles": [],
+  "lowPriorityFiles": [
+    "static/wCCB--FGEVDoULb3eBoCm/_buildManifest.js",
+    "static/wCCB--FGEVDoULb3eBoCm/_ssgManifest.js"
+  ],
+  "rootMainFiles": [],
+  "pages": {
+    "/": [
+      "static/chunks/webpack-59c5c889f52620d6.js",
+      "static/chunks/framework-2c79e2a64abdb08b.js",
+      "static/chunks/main-5020794388548d5e.js",
+      "static/chunks/642-206fea87d271b81d.js",
+      "static/chunks/284-47981f6f6df1325b.js",
+      "static/chunks/740-fac90e803bb54ee2.js",
+      "static/css/09a6c8321e7bfbc2.css",
+      "static/chunks/pages/index-90a29a5c9f1e4e07.js"
+    ],
+    "/ScrollIndicator": [
+      "static/chunks/webpack-59c5c889f52620d6.js",
+      "static/chunks/framework-2c79e2a64abdb08b.js",
+      "static/chunks/main-5020794388548d5e.js",
+      "static/chunks/pages/ScrollIndicator-335db4104e115296.js"
+    ],
+    "/_app": [
+      "static/chunks/webpack-59c5c889f52620d6.js",
+      "static/chunks/framework-2c79e2a64abdb08b.js",
+      "static/chunks/main-5020794388548d5e.js",
+      "static/css/f02bdf110323e99d.css",
+      "static/chunks/pages/_app-ca0e241123996769.js"
+    ],
+    "/_error": [
+      "static/chunks/webpack-59c5c889f52620d6.js",
+      "static/chunks/framework-2c79e2a64abdb08b.js",
+      "static/chunks/main-5020794388548d5e.js",
+      "static/chunks/pages/_error-8353112a01355ec2.js"
+    ],
+    "/carousel_product": [
+      "static/chunks/webpack-59c5c889f52620d6.js",
+      "static/chunks/framework-2c79e2a64abdb08b.js",
+      "static/chunks/main-5020794388548d5e.js",
+      "static/chunks/642-206fea87d271b81d.js",
+      "static/css/09a6c8321e7bfbc2.css",
+      "static/chunks/pages/carousel_product-b499db40d18e4197.js"
+    ],
+    "/contact": [
+      "static/chunks/webpack-59c5c889f52620d6.js",
+      "static/chunks/framework-2c79e2a64abdb08b.js",
+      "static/chunks/main-5020794388548d5e.js",
+      "static/chunks/642-206fea87d271b81d.js",
+      "static/chunks/284-47981f6f6df1325b.js",
+      "static/chunks/740-fac90e803bb54ee2.js",
+      "static/css/09a6c8321e7bfbc2.css",
+      "static/chunks/pages/contact-b1f6645fd7ba4e1d.js"
+    ],
+    "/intro": [
+      "static/chunks/webpack-59c5c889f52620d6.js",
+      "static/chunks/framework-2c79e2a64abdb08b.js",
+      "static/chunks/main-5020794388548d5e.js",
+      "static/chunks/pages/intro-fd0709c19473b27a.js"
+    ],
+    "/list_product": [
+      "static/chunks/webpack-59c5c889f52620d6.js",
+      "static/chunks/framework-2c79e2a64abdb08b.js",
+      "static/chunks/main-5020794388548d5e.js",
+      "static/chunks/pages/list_product-3d87612ade8df644.js"
+    ],
+    "/phan-mem-ban-quyen-microsoft": [
+      "static/chunks/webpack-59c5c889f52620d6.js",
+      "static/chunks/framework-2c79e2a64abdb08b.js",
+      "static/chunks/main-5020794388548d5e.js",
+      "static/chunks/642-206fea87d271b81d.js",
+      "static/chunks/284-47981f6f6df1325b.js",
+      "static/chunks/740-fac90e803bb54ee2.js",
+      "static/css/09a6c8321e7bfbc2.css",
+      "static/chunks/pages/phan-mem-ban-quyen-microsoft-7be72a0e8f6c7ebc.js"
+    ],
+    "/phan-mem-cong-ty-duoc": [
+      "static/chunks/webpack-59c5c889f52620d6.js",
+      "static/chunks/framework-2c79e2a64abdb08b.js",
+      "static/chunks/main-5020794388548d5e.js",
+      "static/chunks/642-206fea87d271b81d.js",
+      "static/chunks/284-47981f6f6df1325b.js",
+      "static/chunks/740-fac90e803bb54ee2.js",
+      "static/css/09a6c8321e7bfbc2.css",
+      "static/chunks/pages/phan-mem-cong-ty-duoc-6f3812e6eac0cffe.js"
+    ],
+    "/phan-mem-dat-lich": [
+      "static/chunks/webpack-59c5c889f52620d6.js",
+      "static/chunks/framework-2c79e2a64abdb08b.js",
+      "static/chunks/main-5020794388548d5e.js",
+      "static/chunks/642-206fea87d271b81d.js",
+      "static/chunks/284-47981f6f6df1325b.js",
+      "static/chunks/740-fac90e803bb54ee2.js",
+      "static/css/09a6c8321e7bfbc2.css",
+      "static/chunks/pages/phan-mem-dat-lich-a53434dc564424dc.js"
+    ],
+    "/phan-mem-nha-khoa": [
+      "static/chunks/webpack-59c5c889f52620d6.js",
+      "static/chunks/framework-2c79e2a64abdb08b.js",
+      "static/chunks/main-5020794388548d5e.js",
+      "static/chunks/642-206fea87d271b81d.js",
+      "static/chunks/284-47981f6f6df1325b.js",
+      "static/chunks/740-fac90e803bb54ee2.js",
+      "static/css/09a6c8321e7bfbc2.css",
+      "static/chunks/pages/phan-mem-nha-khoa-bf857b94d81aa272.js"
+    ],
+    "/phan-mem-nha-thuoc": [
+      "static/chunks/webpack-59c5c889f52620d6.js",
+      "static/chunks/framework-2c79e2a64abdb08b.js",
+      "static/chunks/main-5020794388548d5e.js",
+      "static/chunks/642-206fea87d271b81d.js",
+      "static/chunks/284-47981f6f6df1325b.js",
+      "static/chunks/740-fac90e803bb54ee2.js",
+      "static/css/09a6c8321e7bfbc2.css",
+      "static/chunks/pages/phan-mem-nha-thuoc-bd66b3075afe9bac.js"
+    ],
+    "/phan-mem-phong-kham": [
+      "static/chunks/webpack-59c5c889f52620d6.js",
+      "static/chunks/framework-2c79e2a64abdb08b.js",
+      "static/chunks/main-5020794388548d5e.js",
+      "static/chunks/642-206fea87d271b81d.js",
+      "static/chunks/284-47981f6f6df1325b.js",
+      "static/chunks/740-fac90e803bb54ee2.js",
+      "static/css/09a6c8321e7bfbc2.css",
+      "static/chunks/pages/phan-mem-phong-kham-ddfa815236d86b1d.js"
+    ],
+    "/phan-mem-spa-nail": [
+      "static/chunks/webpack-59c5c889f52620d6.js",
+      "static/chunks/framework-2c79e2a64abdb08b.js",
+      "static/chunks/main-5020794388548d5e.js",
+      "static/chunks/642-206fea87d271b81d.js",
+      "static/chunks/284-47981f6f6df1325b.js",
+      "static/chunks/740-fac90e803bb54ee2.js",
+      "static/css/09a6c8321e7bfbc2.css",
+      "static/chunks/pages/phan-mem-spa-nail-95d5b10498e5a08d.js"
+    ],
+    "/phan-mem-tham-my": [
+      "static/chunks/webpack-59c5c889f52620d6.js",
+      "static/chunks/framework-2c79e2a64abdb08b.js",
+      "static/chunks/main-5020794388548d5e.js",
+      "static/chunks/642-206fea87d271b81d.js",
+      "static/chunks/284-47981f6f6df1325b.js",
+      "static/chunks/740-fac90e803bb54ee2.js",
+      "static/css/09a6c8321e7bfbc2.css",
+      "static/chunks/pages/phan-mem-tham-my-49c7d742ef8aacdd.js"
+    ],
+    "/phan-mem-xet-nghiem": [
+      "static/chunks/webpack-59c5c889f52620d6.js",
+      "static/chunks/framework-2c79e2a64abdb08b.js",
+      "static/chunks/main-5020794388548d5e.js",
+      "static/chunks/642-206fea87d271b81d.js",
+      "static/chunks/284-47981f6f6df1325b.js",
+      "static/chunks/740-fac90e803bb54ee2.js",
+      "static/css/09a6c8321e7bfbc2.css",
+      "static/chunks/pages/phan-mem-xet-nghiem-87f45e1288003aa3.js"
+    ],
+    "/policy": [
+      "static/chunks/webpack-59c5c889f52620d6.js",
+      "static/chunks/framework-2c79e2a64abdb08b.js",
+      "static/chunks/main-5020794388548d5e.js",
+      "static/chunks/642-206fea87d271b81d.js",
+      "static/chunks/284-47981f6f6df1325b.js",
+      "static/chunks/740-fac90e803bb54ee2.js",
+      "static/css/09a6c8321e7bfbc2.css",
+      "static/chunks/pages/policy-712dcba38fa330ad.js"
+    ],
+    "/product": [
+      "static/chunks/webpack-59c5c889f52620d6.js",
+      "static/chunks/framework-2c79e2a64abdb08b.js",
+      "static/chunks/main-5020794388548d5e.js",
+      "static/chunks/pages/product-c1d32f2eadf0374c.js"
+    ],
+    "/requiredelete": [
+      "static/chunks/webpack-59c5c889f52620d6.js",
+      "static/chunks/framework-2c79e2a64abdb08b.js",
+      "static/chunks/main-5020794388548d5e.js",
+      "static/chunks/642-206fea87d271b81d.js",
+      "static/chunks/284-47981f6f6df1325b.js",
+      "static/chunks/740-fac90e803bb54ee2.js",
+      "static/css/09a6c8321e7bfbc2.css",
+      "static/chunks/pages/requiredelete-6f45d0fec76ded91.js"
+    ],
+    "/services": [
+      "static/chunks/webpack-59c5c889f52620d6.js",
+      "static/chunks/framework-2c79e2a64abdb08b.js",
+      "static/chunks/main-5020794388548d5e.js",
+      "static/chunks/642-206fea87d271b81d.js",
+      "static/chunks/740-fac90e803bb54ee2.js",
+      "static/css/09a6c8321e7bfbc2.css",
+      "static/chunks/pages/services-25d48b82b7f69c42.js"
+    ],
+    "/tool-excel": [
+      "static/chunks/webpack-59c5c889f52620d6.js",
+      "static/chunks/framework-2c79e2a64abdb08b.js",
+      "static/chunks/main-5020794388548d5e.js",
+      "static/chunks/674a26a7-fde26b1905c2bda9.js",
+      "static/chunks/pages/tool-excel-eadb01b9d57dc258.js"
+    ]
+  },
+  "ampFirstPages": []
+}

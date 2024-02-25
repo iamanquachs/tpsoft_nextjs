@@ -1,0 +1,393 @@
+import React from "react";
+import Image from "next/image";
+import { Container, Row, Col } from "react-bootstrap";
+import Footer_LH from "../components/footer_lienhe";
+export default function Product() {
+  return (
+    <>
+      <div className="product_wrap">
+        <div className="section_product">
+          <div className="section_home_title">
+            <p>Phù hợp - Thân thiện - Nổi bật - Khác biệt</p>
+            <p>Thấu hiểu - Sáng tạo - Đồng hành - Chia sẻ</p>
+          </div>
+        </div>
+        {/* <!-- eClinic --> */}
+        <Container>
+          <Row>
+            <Col xs={12}>
+              <div id="EClinic" className="section_title">
+                <h1>Phần mềm Quản lý Phòng khám - eClinic</h1>
+              </div>
+              <div className="style_img">
+                <div className="img_sanpham">
+                  <Image
+                    src={require("../vendor/image/Logo_EC_To.png")}
+                    alt={"PHẦN MỀM PHÒNG KHÁM | PHẦN MỀM BÁC SĨ"}
+                  />
+                </div>
+              </div>
+            </Col>
+            <Col xs={12}>
+              <div className="section_sanpham_item row">
+                <Col sm={6} xs={12}>
+                  <div className="style_image_ctsanpham ec4"></div>
+                </Col>
+                <Col sm={6} xs={12}>
+                  {/* <!-- EC Left --> */}
+                  <div className="ec_item">
+                    <ul>
+                      <li>
+                        <p className="stt"></p>
+                        <p className="content">
+                          Liên thông đơn thuốc điện tử quốc gia
+                        </p>
+                      </li>
+                      <li>
+                        <p className="stt"></p>
+                        <p className="content">Nghiệp vụ đầy đủ, chuyên sâu</p>
+                      </li>
+                      <li>
+                        <p className="stt"></p>
+                        <p className="content">
+                          Quy trình chuẩn mực cho ngành Y
+                        </p>
+                      </li>
+                      <li>
+                        <p className="stt"></p>
+                        <p className="content">
+                          Vận hành hiệu quả, nhanh chóng
+                        </p>
+                      </li>
+                      <li>
+                        <p className="stt"></p>
+                        <p className="content">
+                          Đội ngũ chuyên gia hỗ trợ 24/24
+                        </p>
+                      </li>
+                    </ul>
+                  </div>
+                </Col>
+              </div>
+            </Col>
+            <Col xs={12}>
+              <div className="section_sanpham_item row">
+                <Col sm={6} xs={12}>
+                  <div className="style_image_ctsanpham ec5"></div>
+                </Col>
+                <Col sm={6} xs={12}>
+                  {/* <!-- EC Right --> */}
+                  <div className="ec_item">
+                    <ul>
+                      <li>
+                        <p>
+                          Người bệnh tìm bác sĩ và đặt lịch với khung giờ phù
+                          hợp nhất. Bác sĩ có nhiều thông tin và thời gian để
+                          điều trị cho người bệnh.
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          Phần mềm kết nối và liên thông toàn diện với các phân
+                          hệ chuyên sâu, riêng biệt: Tiếp nhận bệnh, Thu tiền,
+                          Khám bệnh, Nhà thuốc, Siêu âm, X-Quang, Nọi Soi, Xét
+                          nghiệm.
+                        </p>
+                      </li>
+
+                      <li>
+                        <p>
+                          Loại bỏ hoàn toàn các công việc liên quan tới việc ghi
+                          chép sổ sách, giấy tờ, giúp bác sĩ tập trung nhiều hơn
+                          vào việc chăm sóc, chẩn đoán điều trị cho bệnh nhân.
+                        </p>
+                      </li>
+                    </ul>
+                  </div>
+                </Col>
+              </div>
+              <div className="section_sanpham_item row">
+                <Col sm={6} xs={12}>
+                  <div className="style_image_ctsanpham ec1"></div>
+                </Col>
+
+                <Col sm={6} xs={12}>
+                  {/* <!-- EC Right --> */}
+                  <div className="ec_item">
+                    <ul>
+                      <li>
+                        <p>
+                          Thực hiện y lệnh Cận lâm sàng, đơn thuốc. Lịch sử bệnh
+                          nhân được lưu trữ xuyên suốt trong quá trình khám
+                          bệnh, giúp bác sĩ có đầy đủ thông tin cho lần khám
+                          tiếp theo.
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          Xem lại toa và các kết quả cận lâm sàng, xét nghiệm
+                          lần trước, giúp bác sĩ theo dõi diễn biến trong điều
+                          trị. Thiết lập Toa mẫu hoặc lấy lại Toa cũ giúp bác sĩ
+                          chỉ định nhanh chóng.
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          Khi Bác sĩ khám xong, nếu được bố trí chỗ Phát thuốc
+                          riêng, thì đơn thuốc đã được chuyển sang nhà thuốc để
+                          hướng dẫn dùng thuốc, cấp phát và thu tiền.
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          Thông tin, hình ảnh y học có thể chia sẽ phục vụ tham
+                          vấn chuyên môn, lưu trữ lâu dài, có tổ chức; có thể
+                          tập hợp, phân tích, phục vụ nghiên cứu khoa học, lợi
+                          ích cộng đồng, xã hội.
+                        </p>
+                      </li>
+                    </ul>
+                  </div>
+                </Col>
+              </div>
+            </Col>
+          </Row>
+        </Container>
+
+        {/* <!-- ePharmacy --> */}
+        <Container>
+          <Row>
+            <Col xs={12}>
+              <div id="EPhamarcy" className="section_title">
+                <h2>Phần mềm Quản lý Nhà thuốc - ePharmacy</h2>
+              </div>
+              <div className="style_img">
+                <div className="img_sanpham">
+                  <Image
+                    src={require("../vendor/image/Logo_EP_To.png")}
+                    alt={"PHẦN MỀM NHÀ THUỐC"}
+                  />
+                </div>
+              </div>
+            </Col>
+            <Col xs={12}>
+              <div className="section_sanpham_item row">
+                <Col sm={6} xs={12}>
+                  <div className="style_image_ctsanpham ep3"></div>
+                </Col>
+                <Col sm={6} xs={12}>
+                  {/* <!-- EP Left --> */}
+                  <div className="ec_item">
+                    <ul>
+                      <li>
+                        <p className="stt"></p>
+                        <p className="content">
+                          Liên thông dữ liệu Dược Quốc gia
+                        </p>
+                      </li>
+                      <li>
+                        <p className="stt"></p>
+                        <p className="content">Nghiệp vụ đầy đủ, chuyên sâu</p>
+                      </li>
+                      <li>
+                        <p className="stt"></p>
+                        <p className="content">
+                          Thiết kế đặc trưng cho ngành Dược
+                        </p>
+                      </li>
+                      <li>
+                        <p className="stt"></p>
+                        <p className="content">
+                          Vận hành hiệu quả, nhanh chóng
+                        </p>
+                      </li>
+                      <li>
+                        <p className="stt"></p>
+                        <p className="content">
+                          Đội ngũ chuyên gia hỗ trợ 24/24
+                        </p>
+                      </li>
+                    </ul>
+                  </div>
+                </Col>
+              </div>
+            </Col>
+            <Col xs={12}>
+              <div className="section_sanpham_item row">
+                <Col sm={6} xs={12}>
+                  <div className="style_image_ctsanpham ep4"></div>
+                </Col>
+                <Col sm={6} xs={12}>
+                  {/* <!-- EP Right --> */}
+                  <div className="ec_item">
+                    <ul>
+                      <li>
+                        <p>
+                          Đáp ứng việc liên thông cơ sở dữ liệu Dược Quốc gia
+                          theo quy định của Bộ Y tế; Loại bỏ việc ghi chép sổ
+                          sách, giấy tờ.
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          Quản lý và kiểm soát hoạt động kinh doanh của cơ sở,
+                          tránh mất kiểm soát, thất thoát hàng hóa; Kiểm soát
+                          thu chi hàng ngày; Quản trị và phân quyền nhân viên
+                          linh hoạt, chặt chẽ.
+                        </p>
+                      </li>
+
+                      <li>
+                        <p>
+                          Hệ thống báo cáo đa dạng, chuyên sâu; Theo dõi công nợ
+                          phải thu, phải trả; Báo cáo hoạt động kinh doanh, hàng
+                          hóa bán có doanh số cao, hàng hóa bán theo đơn.
+                        </p>
+                      </li>
+                    </ul>
+                  </div>
+                </Col>
+              </div>
+              <div className="section_sanpham_item row">
+                <Col sm={6} xs={12}>
+                  <div className="style_image_ctsanpham ep2"></div>
+                </Col>
+                <Col sm={6} xs={12}>
+                  {/* <!-- EC Right --> */}
+                  <div className="ec_item">
+                    <ul>
+                      <li>
+                        <p>
+                          Tích hợp nhập kho tự động từ hóa đơn điện tử; Quản lý
+                          kho (nhập, xuất, tồn), số lô, hạn dùng chính xác; Kịp
+                          thời cảnh báo hàng hóa hết hạn sử dụng.
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          Tạo phiếu bán thuốc mẫu cho từng loại bệnh cụ thể;
+                          Quản lý thuốc bán theo đơn, thuốc quản lý đặc biệt;
+                          Cấp quyền cho nhân viên được bán loại thuốc nào.
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          Chủ động phân loại đơn vị tính quy đổi khi nhập kho và
+                          cài đặt giá bán theo (viên, vĩ, hộp). Hỗ trợ nhiều
+                          loại xuất (bán lẻ, bán sĩ, xuất khuyến mãi, hết hạn,
+                          hư hỏng).
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          Luôn cập nhật những quy định mới của cơ quan nhà nước;
+                          Mở rộng và tích hợp linh hoạt, không giới hạn tính
+                          năng và số lượng người sử dụng; Chính sách giá ưu đãi,
+                          cạnh tranh.
+                        </p>
+                      </li>
+                    </ul>
+                  </div>
+                </Col>
+              </div>
+            </Col>
+          </Row>
+        </Container>
+        {/* <!-- Microsoft --> */}
+        <Container>
+          <Row>
+            <Col xs={12}>
+              <div id="Microsoft" className="section_title">
+                <h2>PHẦN MỀM BẢN QUYỀN</h2>
+              </div>
+              <div className="style_img">
+                <div className="">
+                  <Image
+                    src={require("../vendor/image/Logo_MS_Partner.webp")}
+                    alt={""}
+                  />
+                </div>
+              </div>
+            </Col>
+            <Col xs={12}>
+              <div className="section_sanpham_item row">
+                <Col sm={6} xs={12}>
+                  <div className="style_image_ctsanpham ms"></div>
+                </Col>
+                <Col sm={6} xs={12}>
+                  {/* <!-- Left --> */}
+                  <div className="ec_item">
+                    <ul>
+                      <li>
+                        <p className="stt"></p>
+                        <p className="content">Microsoft Office 365</p>
+                      </li>
+                      <li>
+                        <p className="stt"></p>
+                        <p className="content">Microsoft Teams</p>
+                      </li>
+                      <li>
+                        <p className="stt"></p>
+                        <p className="content">
+                          Microsoft Email Exchange Server
+                        </p>
+                      </li>
+                      <li>
+                        <p className="stt"></p>
+                        <p className="content">Microsoft Azure Cloud</p>
+                      </li>
+                      <li>
+                        <p className="stt"></p>
+                        <p className="content">
+                          Microsoft Windows Desktop, Windows Server
+                        </p>
+                      </li>
+                    </ul>
+                  </div>
+                </Col>
+              </div>
+            </Col>
+            <Col xs={12}>
+              <div className="section_sanpham_item row">
+                <Col sm={6} xs={12}>
+                  <div className="style_image_ctsanpham ms2"></div>
+                </Col>
+                <Col sm={6} xs={12}>
+                  {/* <!-- Right --> */}
+                  <div className="ec_item">
+                    <ul>
+                      <li>
+                        <p>
+                          Giảm thiểu các rủi ro về bảo mật và pháp lý khi sử
+                          dụng các sản phẩm của Microsoft.
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          Ứng dụng các thành tựu công nghệ trong hệ sinh thái
+                          phần mềm của Microsoft, được thiết kế nhằm tối ưu hiệu
+                          suất công việc một cách thông minh và khả năng bảo mật
+                          đẳng cấp thế giới.
+                        </p>
+                      </li>
+
+                      <li>
+                        <p>
+                          Khai thác các giải pháp điện toán đám mây tích hợp
+                          toàn diện được sử dụng để xây dựng, triển khai và quản
+                          lý các ứng dụng (ERP, CRM, DMS...) thông qua mạng lưới
+                          trung tâm dữ liệu toàn cầu của Microsoft.
+                        </p>
+                      </li>
+                    </ul>
+                  </div>
+                </Col>
+              </div>
+            </Col>
+          </Row>
+        </Container>
+      </div>
+      <Footer_LH />
+    </>
+  );
+}

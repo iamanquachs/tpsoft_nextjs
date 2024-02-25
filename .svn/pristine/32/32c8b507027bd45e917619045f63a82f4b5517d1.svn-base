@@ -1,0 +1,181 @@
+import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
+import FooterSub from "../components/footer_sub";
+import Footer_LH from "../components/footer_lienhe.jsx";
+import Footer from "../components/footer.jsx";
+
+export default function Services() {
+  return (
+    <>
+      <div className="services_wrap">
+        <div className="section_services">
+          <div className="section_header_title">
+            <p>TPSoft</p>
+            <p>
+              Vinh dự được cung cấp sản phẩm và dịch vụ đến khách hàng vào mọi
+              lúc, đến mọi nơi
+            </p>
+          </div>
+        </div>
+        <Container>
+          <Row>
+            <Col xs={12}>
+              <div id="consult" className="section_title">
+                <h2>Tư vấn chiến lược CNTT</h2>
+              </div>
+            </Col>
+
+            <Col xs={12}>
+              <div className="section_sanpham_item row">
+                <Col sm={6} xs={12}>
+                  <div className="style_image_ctsanpham sv1"></div>
+                </Col>
+                <Col sm={6} xs={12}>
+                  <div className="ec_item">
+                    <ul>
+                      <li>
+                        <p className="stt"></p>
+                        <p className="content">
+                          Xây dựng kế hoạch chiến lược phát triển CNTT;
+                        </p>
+                      </li>
+                      <li>
+                        <p className="stt"></p>
+                        <p className="content">
+                          Đánh giá độc lập hệ thống phần mềm và hạ tầng CNTT
+                        </p>
+                      </li>
+                      <li>
+                        <p className="stt"></p>
+                        <p className="content">
+                          Đánh giá và kiểm soát rủi ro CNTT
+                        </p>
+                      </li>
+                      <li>
+                        <p className="stt"></p>
+                        <p className="content">
+                          Tư vấn quy trình hóa các nghiệp vụ vào phần mềm
+                        </p>
+                      </li>
+                      <li>
+                        <p className="stt"></p>
+                        <p className="content">
+                          Tư vấn, thiết kế phần mềm và hạ tầng CNTT
+                        </p>
+                      </li>
+                    </ul>
+                  </div>
+                </Col>
+              </div>
+            </Col>
+            <Col xs={12}>
+              <div id="ERP" className="section_title">
+                <h2>Giải pháp quản trị doanh nghiệp ERP</h2>
+              </div>
+            </Col>
+
+            <Col xs={12}>
+              <div className="section_sanpham_item row">
+                <Col sm={6} xs={12}>
+                  <div className="style_image_ctsanpham erp1"></div>
+                </Col>
+                <Col sm={6} xs={12}>
+                  <div className="ec_item">
+                    <ul>
+                      <li>
+                        <p className="stt"></p>
+                        <p className="content">
+                          Enterprise Resource Planning - "Hoạch định nguồn
+                          lực doanh nghiệp"
+                        </p>
+                      </li>
+                      <li>
+                        <p className="stt"></p>
+                        <p className="content">
+                          Kế toán tài chính, ngân sách | Quản lý bán hàng và
+                          phân phối
+                        </p>
+                      </li>
+                      <li>
+                        <p className="stt"></p>
+                        <p className="content">
+                          Quản lý mua hàng | Quản lý hàng tồn kho
+                        </p>
+                      </li>
+                      <li>
+                        <p className="stt"></p>
+                        <p className="content">
+                          Quản lý sản xuất | Quản lý nhân sự
+                        </p>
+                      </li>
+                      <li>
+                        <p className="stt"></p>
+                        <p className="content">
+                          Báo cáo quản trị | Báo cáo Tài chính, Thuế
+                        </p>
+                      </li>
+                    </ul>
+                  </div>
+                </Col>
+              </div>
+            </Col>
+            <Col xs={12}>
+              <div id="CamAI" className="section_title">
+                <h2>Giải pháp Camera AI</h2>
+              </div>
+            </Col>
+
+            <Col xs={12}>
+              <div className="section_sanpham_item row">
+                <Col sm={6} xs={12}>
+                  <div className="style_image_ctsanpham camera"></div>
+                </Col>
+                <Col sm={6} xs={12}>
+                  <div className="ec_item">
+                    <ul>
+                      <li>
+                        <p className="stt"></p>
+                        <p className="content">
+                          Quản lý, kết nối tập trung nhiều camera từ nhiều vị
+                          trí
+                        </p>
+                      </li>
+                      <li>
+                        <p className="stt"></p>
+                        <p className="content">
+                          Tính năng AI - Giúp camera trở nên thông minh hơn
+                        </p>
+                      </li>
+                      <li>
+                        <p className="stt"></p>
+                        <p className="content">
+                          Tự động thông báo kịp thời đến đúng người khi có sự
+                          xâm nhập trái phép
+                        </p>
+                      </li>
+                      <li>
+                        <p className="stt"></p>
+                        <p className="content">
+                          Lưu trữ an toàn và bảo mật; Tiết kiệm chi phí thiết
+                          lập, lưu trữ, bảo trì
+                        </p>
+                      </li>
+                      <li>
+                        <p className="stt"></p>
+                        <p className="content">
+                          Truy cập tất cả trong một, mọi lúc, mọi nơi
+                        </p>
+                      </li>
+                    </ul>
+                  </div>
+                </Col>
+              </div>
+            </Col>
+          </Row>
+        </Container>
+      </div>
+      <Footer_LH />
+      <Footer />
+    </>
+  );
+}
